@@ -5,16 +5,136 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav id="navbar">
-            <a href="#welcome">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <!-- <a id="profile-link" href="https://www.freecodecamp.org/dawnbludger" target="_blank"><i class="fa fa-free-code-camp"></i></a> -->
+        <nav class="p-3 navbar navbar-expand-md navbar-dark fixed-top shadow bg-dark-override">
+            <a class="navbar-brand" href="#">CC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#welcome">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>    
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>    
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>    
+              </ul>
+            </div>  
         </nav>
+
+        <section class="p-5 bg-dark-override text-center text-light-override welcome" id="welcome">
+            <h1 class="">hello world <span id="blinking-cursor">|</span></h1>
+            <p class="mt-3">I am Claudette Joy Celoso, an aspiring graphic designer and web developer from the Philippines.</p>
+        </section>
+
+        <section class="p-5 text-dark-override text-center" id="about">
+            <div class="hideme">
+                <h2>About</h2>
+                <hr class="hr-dark">
+            </div>
+            <p>I am a computer science student with a passion for creating elegant solutions and building functional websites geared towards great user experience. In hopes of creating beautiful websites in the future, I am currently studying to become a front end developer through FreeCodeCamp and other free resources.</p>
+        </section>
+
+        <section class="p-5 bg-dark-override text-light-override text-center" id="experience">
+            <div class="hideme">
+                <h2>Experience</h2>
+                <hr class="hr-light">
+            </div>
+        </section>
+
+        <section class="p-5 bg-light-override text-dark-override text-center" id="projects">
+            <div class="hideme">
+                <h2>Projects</h2>
+                <hr class="hr-dark">
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/rock-paper-scissors.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rock Paper Scissors</h5>
+                        <p>Game created with HTML, CSS and JS with a Notion-inspired UI</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/red-velvet.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Product Landing Page</h5>
+                        <p>Page for Red Velvet's The ReVe Festival Finale album created with HTML and CSS</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/js-docu.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>JavaScript Technical Documentation Page</h5>
+                        <p>Page created with HTML and CSS</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark-override" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon bg-dark-override" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="p-5 bg-dark-override text-light-override" id="contact">
+            <!-- <div class="hideme">
+                <h2 class="text-center">Contact</h2>
+                <hr class="hr-light">
+            </div> -->
+            <div class="row" id="footer">
+                <div class="col">
+                    <strong>Say hello</strong>
+                    <br>
+                    claudetteceloso@gmail.com <br>
+                    +63 951 572 6137
+                </div>
+                <div class="col text-right">
+                    <ul class="social-icons">
+                        <li><a href="https://github.com/cceloso"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://codepen.io/dawnbludger"><i class="fab fa-codepen"></i></a></li>
+                        <li><a href="bit.ly/cceloso"><i class="fas fa-user-circle"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
     </body>
 </html>
