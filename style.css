@@ -90,6 +90,43 @@ hr {
     border-color: var(--light-color);
 }
 
+.about-desc {
+    padding: 0 10%;
+}
+
+#experience-row {
+    padding: 0 10%;
+}
+
+.logo {
+    padding: 8% 0;
+}
+
+#up-acm-logo {
+    width: 50%;
+}
+
+#aka-logo {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col-spacing {
+    padding: 0 5%;
+}
+
+#experience-row ul {
+    padding: 0;
+    text-align: left;
+}
+
+#experience-row a {
+    color: var(--light-color);
+}
+
 .carousel {
     width: 80%;
     margin: auto;
@@ -120,10 +157,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.social-icons a {
-    text-decoration: none;
 }
 
 .social-icons {
