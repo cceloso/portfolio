@@ -2,7 +2,7 @@
 
 Personal portfolio page created with HTML, CSS, Bootstrap and JS.
 
-👉 Live Demo can be found [here](cceloso.github.io/portfolio).
+👉 Live Demo can be found [here](https://cceloso.github.io/portfolio/).
 
 ## Initial version | Used HTML, CSS, and JS
 
