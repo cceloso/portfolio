@@ -90,8 +90,16 @@ hr {
     border-color: var(--light-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 .about-desc {
     padding: 0 10%;
+}
+
+.about-desc a {
+    color: var(--dark-color);
 }
 
 #experience-row {
@@ -108,10 +116,6 @@ hr {
 
 #aka-logo {
     width: 60%;
-}
-
-a {
-    text-decoration: none;
 }
 
 .col-spacing {
