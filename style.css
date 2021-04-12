@@ -70,6 +70,7 @@ body {
 section {
     scroll-margin-top: 1em;
 }
+
 section h2 {
     padding: 10px;
     font-weight: 600;
@@ -179,6 +180,6 @@ a {
 }
 
 
-.social-icons a {
+.carousel-inner a, .social-icons a {
     color: var(--light-color);
 }
