@@ -35,6 +35,10 @@ body {
     text-transform: uppercase;
 }
 
+.nav-item {
+    color: var(--light-color);
+}
+
 .welcome {
     height: 100vh;
     display: flex;
@@ -96,7 +100,7 @@ a {
 }
 
 .about-desc {
-    padding: 0 10%;
+    padding: 0 8%;
 }
 
 .about-desc a {
@@ -104,23 +108,27 @@ a {
 }
 
 #experience-row {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .logo {
     padding: 8% 0;
 }
 
-#up-acm-logo {
-    width: 50%;
-}
-
-#aka-logo {
+#saperium-logo {
     width: 60%;
 }
 
+#up-acm-logo {
+    width: 40%;
+}
+
+#aka-logo {
+    width: 40%;
+}
+
 .col-spacing {
-    padding: 0 5%;
+    padding: 0 8%;
 }
 
 #experience-row ul {
@@ -133,7 +141,7 @@ a {
 }
 
 .carousel {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -178,7 +186,6 @@ a {
     display: inline;
     padding: 0 0.4rem;
 }
-
 
 .carousel-inner a, .social-icons a {
     color: var(--light-color);

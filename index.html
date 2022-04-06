@@ -1,171 +1,188 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Claudette Joy Celoso</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>Claudette Joy Celoso</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav class="p-3 navbar navbar-expand-md navbar-dark fixed-top shadow bg-dark-override">
-            <a class="navbar-brand" href="#">CC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#welcome">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
-                </li>    
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>    
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>    
-              </ul>
-            </div>  
-        </nav>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="p-3 navbar navbar-expand-md navbar-dark fixed-top shadow bg-dark-override">
+      <a class="navbar-brand" href="#">CC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
 
-        <section class="p-5 bg-dark-override text-center text-light-override welcome" id="welcome">
-            <h1 class="">hello world <span id="blinking-cursor">|</span></h1>
-            <p class="mt-3">I am Claudette Joy Celoso, an aspiring graphic designer and web developer from the Philippines.</p>
-        </section>
+    <section class="p-5 bg-dark-override text-center text-light-override welcome" id="welcome">
+      <h1 class="">hello world <span id="blinking-cursor">|</span></h1>
+      <p class="mt-3">I am Claudette Joy Celoso, an aspiring web developer and graphic designer from the Philippines.</p>
+    </section>
 
-        <section class="p-5 text-dark-override text-center" id="about">
-            <div class="hideme">
-                <h2>About</h2>
-                <hr class="hr-dark">
+    <section class="p-5 text-dark-override text-center" id="about">
+      <div class="hideme">
+        <h2>About</h2>
+        <hr class="hr-dark">
+      </div>
+      <p class="about-desc">I am a BS Computer Science undergraduate at the University of the Philippines Diliman with the goal of using creativity and skills to build functional websites geared towards great user experience. I like working on frontend development projects (maybe because I am interested in graphic designing as well), but I am also eager to learn about backend development more. :)</p>
+    </section>
+
+    <section class="p-5 bg-dark-override text-light-override text-center" id="experience">
+      <div class="hideme">
+        <h2>Experience</h2>
+        <hr class="hr-light">
+      </div>
+      <div class="row justify-content-center" id="experience-row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+          <div class="col-spacing">
+            <a target="_blank" href="https://www.saperium.com/"><img src="img/saperium.png" alt="Saperium Logo" class="logo" id="saperium-logo"></a><br>
+            July 2021 - August 2021 <br>
+            <strong>Software Engineer Intern</strong>, <a target="_blank" href="https://www.saperium.com/">Saperium</a><br><br>
+            <ul>
+              <li>Created a full-stack application inspired by Goodreads. Built said app using Angular and Bootstrap 5 for the frontend, NodeJS and Express for the backend, MySQL and Redis for the data stores, and socket.IO for real-time web</li>
+              <li>Collaborated with co-interns and supervisor using Git to clone some features of the company’s website, a car auction site, as a major app project. Focused on the front-end side of the app</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+          <div class="col-spacing">
+            <a target="_blank" href="https://www.facebook.com/upacm/"><img src="img/up-acm.png" alt="UP ACM Logo" class="logo" id="up-acm-logo"></a><br>
+            August 2020 - Present <br>
+            <strong>Records Committee Member (A.Y. 2021-2022) and Publications Committee Member (A.Y. 2020-2021)</strong>, <a target="_blank" href="https://www.facebook.com/upacm/">Association for Computing Machinery - UP Diliman Student Chapter, Inc.</a><br><br>
+            <ul>
+              <li>Documented meetings, created forms such as registration and evaluation forms, and wrote final reports</li>
+              <li>Designed publication materials</li>
+              <li>Monitored volunteers, created volunteer primer, and led dry runs for proctoring in a programming contest as the event’s Volunteer Management Lead</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="col-spacing">
+            <a target="_blank" href="https://akaintelligence.com//"><img src="img/aka.png" alt="AKA Intelligence" class="logo" id="aka-logo"></a><br>
+            December 2020 - May 2021 <br>
+            <strong>Part-time Writer</strong>, <a target="_blank" href="https://akaintelligence.com/">AKA Intelligence</a><br><br>
+            <ul>
+              <li>Wrote English grammar trees and conversation trees used for educational purposes about a wide array of topics</li>
+              <li>Improved time management skills to balance school, work, and personal life</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-light-override text-dark-override text-center" id="projects">
+      <div class="hideme">
+        <h2>Projects</h2>
+        <hr class="hr-dark">
+      </div>
+      <div id="carousel-container" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-container" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-container" data-slide-to="1"></li>
+          <li data-target="#carousel-container" data-slide-to="2"></li>
+          <li data-target="#carousel-container" data-slide-to="3"></li>
+          <li data-target="#carousel-container" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a target="_blank" href="https://youtu.be/DaxSCWrzlpE"><img class="d-block w-100" src="img/goodreads.png" alt="Goodreads"></a>
+            <div class="carousel-caption d-none d-md-block px-5">
+              <a target="_blank" href="https://youtu.be/DaxSCWrzlpE"><h5>Goodreads Clone</h5></a>
+                <p>A full-stack application inspired by Goodreads, a platform for reviewing books, which was developed using <strong>Angular, Bootstrap, NodeJS, MySQL, Redis, and socket.IO</strong></p>
             </div>
-            <p class="about-desc">I am a computer science student with with the goal of using creativity and skills to build functional websites geared towards great user experience. In hopes of creating beautiful websites in the future, I am currently studying to become a front-end developer through <a href="freecodecamp.org/">freeCodeCamp</a>, <a href="theodinproject.com/">The Odin Project</a> and other free resources.</p>
-        </section>
+          </div>
+          <div class="carousel-item">
+            <a target="_blank" href="https://cceloso.github.io/tour-of-avatar"><img class="d-block w-100" src="img/avatar.png" alt="Avatar"></a>
+            <div class="carousel-caption d-none d-md-block px-5">
+                <a target="_blank" href="https://cceloso.github.io/tour-of-avatar"><h5>Avatar</h5></a>
+                <p>An application made using <strong>Angular and Bootstrap</strong> featuring information about Avatar: The Last Airbender, an animated TV series by Nickelodeon</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a target="_blank" href="https://cceloso.github.io/sticky-notes/"><img class="d-block w-100" src="img/sticky-notes.png" alt="Sticky Notes"></a>
+            <div class="carousel-caption d-none d-md-block px-5">
+              <a target="_blank" href="https://cceloso.github.io/sticky-notes/"><h5>Sticky Notes</h5></a>
+                <p>A page displaying persistent sticky notes using local storage, created with <strong>HTML, CSS and JavaScript</strong>. A course requirement for CS 192 (Software Engineering II)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a target="_blank" href="https://cceloso.github.io/netflix/"><img class="d-block w-100" src="img/netflix.png" alt="Netflix"></a>
+            <div class="carousel-caption d-none d-md-block px-5">
+              <a target="_blank" href="https://cceloso.github.io/netflix/"><h5>Netflix Clone</h5></a>
+                <p>Responsive Netflix landing page clone created with <strong>HTML, CSS and JavaScript</strong>. Features frequently asked questions in accordions</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a target="_blank" href="https://cceloso.github.io/rock-paper-scissors/"><img class="d-block w-100" src="img/rock-paper-scissors.png" alt="Rock Paper Scissors"></a>
+            <div class="carousel-caption d-none d-md-block px-5">
+              <a target="_blank" href="https://cceloso.github.io/rock-paper-scissors/"><h5>Rock Paper Scissors</h5></a>
+              <p>A simple game created with <strong>HTML, CSS and JavaScript</strong> with a Notion-inspired UI. Created for <a target="_blank" href="https://www.theodinproject.com/">The Odin Project</a>, a free open source coding curriculum that can be taken entirely online</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-container" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark-override" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-container" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-dark-override" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
 
-        <section class="p-5 bg-dark-override text-light-override text-center" id="experience">
-            <div class="hideme">
-                <h2>Experience</h2>
-                <hr class="hr-light">
-            </div>
-            <div class="row" id="experience-row">
-                <div class="col">
-                    <div class="col-spacing">
-                        <a href="https://www.facebook.com/upacm/"><img src="img/up-acm.png" alt="UP ACM Logo" class="logo" id="up-acm-logo"></a><br>
-                        August 2020 - Present <br>
-                        <strong>Publications Committee Member and Volunteer Management Lead for Algolympics 2021</strong>, <a href="https://www.facebook.com/upacm/">Association for Computing Machinery - UP Diliman Student Chapter, Inc.</a><br><br>
-                        <ul>
-                            <li>Designed publication materials for different events</li>
-                            <li>Monitored volunteers and led dry runs for Algolympics 2021, a programming contest</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="col-spacing">
-                        <a href="https://akaintelligence.com//"><img src="img/aka.png" alt="AKA Intelligence" class="logo" id="aka-logo"></a><br>
-                        December 2020 - Present <br>
-                        <strong>Part-time Writer</strong>, <a href="https://akaintelligence.com/">AKA Intelligence</a><br><br>
-                        <ul>
-                            <li>Wrote English grammar trees and conversation trees used for educational purposes about a wide array of topics</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="p-5 bg-light-override text-dark-override text-center" id="projects">
-            <div class="hideme">
-                <h2>Projects</h2>
-                <hr class="hr-dark">
-            </div>
-            <div id="carousel-container" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-container" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-container" data-slide-to="1"></li>
-                  <li data-target="#carousel-container" data-slide-to="2"></li>
-                  <li data-target="#carousel-container" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="https://cceloso.github.io/netflix/"><img class="d-block w-100" src="img/netflix.png" alt="First slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="https://cceloso.github.io/netflix/"><h5>Netflix Clone</h5></a>
-                        <p>Responsive Netflix landing page clone created with HTML, CSS and JS</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://cceloso.github.io/rock-paper-scissors/"><img class="d-block w-100" src="img/rock-paper-scissors.png" alt="Second slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="https://cceloso.github.io/rock-paper-scissors/"><h5>Rock Paper Scissors</h5></a>
-                      <p>Game created with HTML, CSS and JS with a Notion-inspired UI</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://codepen.io/dawnbludger/full/NWxgYWL"><img class="d-block w-100" src="img/red-velvet.png" alt="Third slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="https://codepen.io/dawnbludger/full/NWxgYWL"><h5>Product Landing Page</h5></a>
-                        <p>Page for one of Red Velvet's album created with HTML and CSS</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://codepen.io/dawnbludger/full/pogWBWv"><img class="d-block w-100" src="img/js-docu.png" alt="Fourth slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <a href="https://codepen.io/dawnbludger/full/pogWBWv"><h5>JavaScript Technical Documentation Page</h5></a>
-                        <p>Page created with HTML and CSS</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carousel-container" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon bg-dark-override" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-container" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon bg-dark-override" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </section>
-
-        <section class="p-5 bg-dark-override text-light-override" id="contact">
-            <!-- <div class="hideme">
-                <h2 class="text-center">Contact</h2>
-                <hr class="hr-light">
-            </div> -->
-            <div class="row" id="footer">
-                <div class="col">
-                    <strong>Say hello</strong>
-                    <br>
-                    claudetteceloso@gmail.com <br>
-                    +63 951 572 6137
-                </div>
-                <div class="col text-right">
-                    <ul class="social-icons">
-                        <li><a href="https://github.com/cceloso"><i class="fab fa-github"></i></a></li>
-                        <li><a href="https://codepen.io/dawnbludger"><i class="fab fa-codepen"></i></a></li>
-                        <li><a href="https://bit.ly/cceloso"><i class="fas fa-user-circle"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <script src="script.js"></script>
-    </body>
+    <section class="p-5 bg-dark-override text-light-override" id="contact">
+      <div class="row" id="footer">
+        <div class="col">
+          <strong>Say hello</strong>
+          <br>
+          claudetteceloso@gmail.com <br>
+          +63 951 572 6137
+        </div>
+        <div class="col text-right">
+          <ul class="social-icons">
+              <li><a href="https://github.com/cceloso"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://codepen.io/dawnbludger"><i class="fab fa-codepen"></i></a></li>
+              <!-- <li><a href="https://bit.ly/cceloso"><i class="fas fa-user-circle"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
