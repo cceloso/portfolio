@@ -19,3 +19,9 @@ Personal portfolio page created with HTML, CSS, Bootstrap and JS.
 
 - Updated About, Experience and Projects sections
 - Remove unused old files
+
+## Version 4 | Updated information
+
+- Added favicon
+- Updated About, Experience and Footer sections
+- Updated FontAwesome import
