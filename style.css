@@ -190,3 +190,7 @@ a {
 .carousel-inner a, .social-icons a {
     color: var(--light-color);
 }
+
+.carousel-image {
+    object-fit: contain;
+}
